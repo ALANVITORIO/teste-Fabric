@@ -19,6 +19,8 @@ h1 {
 }
 
 canvas {
+  max-width: 100%;
+  height: auto;
   display: block;
   border: 0.5px solid #ccc;
   border-radius: 0.5px;

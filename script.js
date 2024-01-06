@@ -55,14 +55,3 @@ document.addEventListener('DOMContentLoaded', function () {
   canvas1.add(group);
   canvas1.renderAll();
 });
-
-//responsividade
-
-window.addEventListener('resize', function () {
-  canvas.setWidth(document.getElementById('c').clientWidth);
-  canvas.setHeight(document.getElementById('c').clientHeight);
-  canvas1.setWidth(document.getElementById('c1').clientWidth);
-  canvas1.setHeight(document.getElementById('c1').clientHeight);
-  canvas.renderAll();
-  canvas1.renderAll();
-});
